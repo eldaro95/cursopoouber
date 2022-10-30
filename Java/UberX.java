@@ -5,7 +5,13 @@ public class UberX extends Car {
         public UberX(String license, Account driver, String brand, String model) {
             super(license, driver);
             this.brand = brand;
-            this.model = model;
-            
+            this.model = model;    
         }   
+
+        /*Polimorfismo*/
+        @Override
+        void printDataCar() {
+            super.printDataCar();
+            System.out.println("Modelo: "+model + " Marca: "+ model);
+        }
 }
