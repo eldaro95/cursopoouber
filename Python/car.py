@@ -1,7 +1,6 @@
 #Importar para usar herencia
 from account import Account
 
-
 class Car:
     id = int
     licence = str

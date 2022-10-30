@@ -6,9 +6,11 @@ class Account:
     password = str
     
     #Declarando el metodo constructor (init y self son obligatorios)
-    def __init__(self, name, document):
+    def __init__(self, name, document,email,password):
         self.name = name
         self.document = document
+        self.email = email
+        self.password = password
         
     '''hace referencia a los datos que componen la clase,
     en este caso self.name está llamando al atributo name 
